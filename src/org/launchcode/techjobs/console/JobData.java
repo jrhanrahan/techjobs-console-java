@@ -84,6 +84,7 @@ public class JobData {
         return jobs;
     }
 
+
     /**
      * Read in data from a CSV file and store it in a list
      */
@@ -113,7 +114,7 @@ public class JobData {
                     newJob.put(headerLabel, record.get(headerLabel));
                 }
 
-                allJobs.add(newJob);
+                     allJobs.add(newJob);
             }
 
             // flag the data as loaded, so we don't do it twice
